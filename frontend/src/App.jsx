@@ -5,7 +5,7 @@ import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import ReportPage from './pages/ReportPage';
 import TrackIncidentPage from './pages/TrackIncidentPage';
-import LoginPage from './pages/LoginPage'; // ✅ Import correcto
+import LoginPage from './pages/LoginPage';
 import './index.css';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/reportar" element={<ReportPage />} />
             <Route path="/seguimiento" element={<TrackIncidentPage />} />
-            <Route path="/login" element={<LoginPage />} /> {/* ✅ Ruta funcional */}
+            <Route path="/login" element={<LoginPage />} />
           </Routes>
         </main>
         <Footer />
